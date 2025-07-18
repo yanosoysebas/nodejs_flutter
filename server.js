@@ -6,10 +6,10 @@ const sql = require('mssql');
 const port = 3000; 
 
 const sqlConfig = {
-  user: 'sa',          // Tu usuario de SQL Server
-  password: '1234',   // Tu contraseña de SQL Server
-  server: '192.168.0.8',         // IP del servidor o localhost si está en tu máquina local
-  database: 'contenedores',       // El nombre de la base de datos
+  user: 'db_abbe89_contenedores_admin',          // Tu usuario de SQL Server
+  password: 'appContenedores1',   // Tu contraseña de SQL Server
+  server: 'SQL1004.site4now.net',         // IP del servidor o localhost si está en tu máquina local
+  database: 'db_abbe89_contenedores',       // El nombre de la base de datos
   options: {
     encrypt: false,             // Para usar cifrado si es necesario
     trustServerCertificate: false // Asegúrate de que el certificado sea de confianza
