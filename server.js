@@ -88,6 +88,6 @@ app.get('/api/get_lastData', async (req, res) => {
 });
 
 // Iniciar el servidor en el puerto 3000
-app.listen(port, () => {
-  console.log(`Servidor escuchando en http://localhost:${port}`);
+app.listen(port, '0.0.0.0', () => {
+  console.log(`Servidor escuchando en http://0.0.0.0:${port}`);
 });
